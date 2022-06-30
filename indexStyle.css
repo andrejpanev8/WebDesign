@@ -1,0 +1,243 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.mainNav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#MainName{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#ButtonsMenu{
+    margin-right: 5px;
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.buttons{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Lucida Console",serif;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 130px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.buttons:hover{
+    background-color: gray;
+    border-radius: 10%;
+}
+#MainPersonalPic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 290px;
+    margin-top: 70px;
+}
+#fade{
+    position: absolute;
+    display: block;
+    background: linear-gradient(to bottom, rgba(255,0,0,0), black);
+    width: 100%;
+    height: 550px;
+    opacity: 60%;
+    align-items: center;
+    flex-direction: column;
+}
+#IntroImage{
+    height: 550px;
+    width: 100%;
+    display: block;
+    background-image: url("barmen-wide.jpg");
+    background-size: 100% 100%;
+    float: left;
+}
+#IntroText{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: 100% 100%;
+    position: absolute;
+}
+#IntroText h1{
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 1px 6px black;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+.separator{
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 2px 1px 6px black;
+}
+#IntroText h2{
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 3px 6px black;
+    margin-bottom: 20px;
+}
+#s1{
+    width: 500px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 2px 1px 6px black;
+    margin-bottom: 50px;
+}
+#s2{
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 2px 1px 6px black;
+    margin-bottom: 50px;
+}
+#s3{
+    width: 150px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 2px 1px 6px black;
+}
+#Content{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ContentTextAbout{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: silver solid 6px;
+    border-right: silver solid 6px;
+}
+.FirstParagraph{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+}
+.FirstParagraph img{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+}
+.FTPContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+#Beginnings{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.Line{
+    width: 120px;
+    height: 5px;
+    margin-top: 30px;
+    background-color: silver;
+    box-shadow: 2px 1px 6px black;
+}
+.FPText{
+    color: silver;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.SecondParagraph{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.SecondParagraph img{
+    width: 330px;
+    height: 600px;
+    margin-right: 20px;
+}
+.STPContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+#Journey{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+}
+.SPText{
+    color: silver;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.LastParagraph{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3px;
+}
+.LastParagraph img{
+    height: 600px;
+    width: 600px;
+    margin-top: 50px;
+}
+.LTPContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#Advancement {
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+}
+.LPText{
+    color: silver;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: silver;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,244 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.mainNav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#MainName{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#ButtonsMenu{
+    margin-right: 5px;
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.buttons{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Lucida Console",serif;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 130px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.buttons:hover{
+    background-color: gray;
+    border-radius: 10%;
+}
+#MainPersonalPic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 290px;
+    margin-top: 70px;
+}
+#Content{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: silver;
+    align-items: center;
+    justify-content: center;
+}
+.C1{
+    display: flex;
+    justify-content: space-around;
+}
+.C1:first-of-type(div){
+    display: flex;
+    flex-direction: column;
+}
+.C1 img{
+    width: 420px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.T1C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.amaretto{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.Line{
+    width: 120px;
+    height: 5px;
+    margin-top: 30px;
+    background-color: silver;
+    box-shadow: 2px 1px 6px black;
+}
+.T1T{
+    color: silver;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.C2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.C2 img{
+    width: 330px;
+    height: 600px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.T2C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#BeesKnees{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+}
+.T2T{
+    color: silver;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.mines{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: silver solid 6px;
+    border-right: silver solid 6px;
+}
+.C3{
+    display: flex;
+    justify-content: space-around;
+}
+.C3 img{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.T3C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+#DeepJungle{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.T3T{
+    color: silver;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.C4{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.C4 img{
+    width: 330px;
+    height: 550px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.T4C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+#SourCandy{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+}
+.T4T{
+    color: silver;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.C5{
+    display: flex;
+    justify-content: space-around;
+}
+.C5 img{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+.T5C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+#PineappleTropical{
+    color: silver;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.T5T{
+    color: silver;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
